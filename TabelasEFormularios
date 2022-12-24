@@ -1,0 +1,47 @@
+<html lang="pt-br">
+<head>
+<title>HTML Avançado - Fundação Bradesco</title>
+</head>
+<body>
+<p>
+	<font face="verdana" size="5" color="#4a6c6f">Formulário para cadastro</font>
+</p>
+<form action="url" method="post" action="envia.php">
+	<table width ="100%" border="0" cellspacing="5">
+	<tr>
+		<td width="13%">Nome</td>
+		<td width="87%"><input type=text name="Nome"></td>
+	</tr>
+	<tr>
+		<td>E-mail</td> 
+		<td><input type=text name="email"></td>
+	</tr>
+	<tr>
+		<td>Sexo</td>
+		<td><input type=radio name="selec_sex" value="fem">Feminino 
+			<input type=radio name="selec_sex" value="masc">Masculino</td>
+	</tr>
+	<tr>
+		<td>RG</td>
+		<td><input type=text name="rg" size="20" maxlength="8"></td>
+	</tr>
+	<tr>
+		<td>CPF</td>
+		<td><input type=text name="cpf" size="20" maxlength="11"></td>
+	</tr>
+	<tr>
+		<td>Login</td> 
+		<td><input type=text name="log" size="20" maxlength="5"></td>
+	</tr>
+	<tr>
+		<td>Senha</td> 
+		<td><input type=password name="pass" size="20" maxlength="10"></td>
+	</tr>
+	<tr>
+		<td><input type=submit value="Enviar"></td>
+		<td><input type=reset value="Limpar"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
